@@ -46,7 +46,7 @@ int main()
 	printf("%d\n",l);
 	for(int i=0;i<l;i++)
 	{
-		printf("%d %d\n",libraries[i].i+1,libraries[i].n);
+		printf("%d %d\n",libraries[i].i,libraries[i].n);
 		for(int j=0;j<libraries[i].n;j++) printf("%d ",libraries[i].books[j]);
 		printf("\n");
 	}
